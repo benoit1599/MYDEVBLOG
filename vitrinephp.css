@@ -1,0 +1,162 @@
+@font-face {
+    font-family: "open";
+    src: url("OpenSans-Regular.ttf");
+    font-stretch: normal;
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "nasa";
+    src: url("nasalization-rg.ttf");
+    font-stretch: normal;
+    font-weight: normal;
+    font-style: normal;
+}
+main {
+    font-family: "open";
+    font-size: 14px;
+    background-color: white; 
+    width: 810px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a:hover {
+    color: palegoldenrod;
+}
+h1 {
+    font-family: "nasa";
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    text-shadow: 2px 3px 2px grey;
+}
+
+/* partie navigation du site */ 
+ul#nav-box
+{
+    
+    margin : 0 0 1.5em 0;
+    padding : 5px 2em 35px 0;
+    list-style-type : none;
+    background-color: palegoldenrod;
+    color: black;
+    font-weight : bold;
+    font-size : 0.9em;
+    text-align: right;
+    border-radius: 50px;
+     }
+     
+ul#nav-box li {
+    display: inline;
+    padding : 1px 0;
+     }
+
+ul#nav-box li a {
+    padding : 5px 2em 35px 2em;
+    color: rgb(58, 58, 58);
+    text-decoration: none;
+    border-left: 1px solid #fff;
+    text-align: center;
+
+     }
+ul#nav-box li a:hover {
+    background-color: orange;
+    color: palegoldenrod;
+    border-left: 1px solid #fff;
+}
+
+/* fin de la partie navigation du site */ 
+
+main.Accueil > h2 {
+    text-shadow: 1px 1px 2px black; background-color: palegoldenrod; 
+}
+p, h2 {
+    text-align: center;
+    width: 800px;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+/* partie image */ 
+.image1 {
+    float: left;
+}
+.image2 {
+    float: right;
+}
+.image4 {
+    float: left;
+}
+/* fin de partie image */ 
+table {
+    height: 480px;
+    width: 810px;
+    text-align: center;
+}
+thead {
+    background-color: palegreen;
+}
+main.Programme > h2 {
+    text-shadow: 1px 1px 2px white; background-color: palegoldenrod;
+}
+
+/* partie contact */ 
+main.Contact > h2 {
+    text-shadow: 1px 1px 2px whitesmoke; background-color: palegoldenrod; 
+}
+.formulaire {
+    width: 600px;
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+.Nom-et-Prénom, .Mail, .Message {
+    padding: 5%;
+    width: 300px;
+    height: 30px;
+    border-color: palegoldenrod;
+    border-width: 15px;
+}
+nav a#current
+{
+font-weight: bold;
+color: palegoldenrod;
+}
+
+
+/* partie présentation du site et présenatation de moi même*/
+
+section
+{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.ico_categorie
+{
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+article p
+{
+    font-size: 0.8em;
+}
+
+aside
+{
+    flex: 1.2;
+    position: static;
+    background-color: #706b64;
+    box-shadow: 2px 6px 5px #1c1a19;
+    border-radius: 50px;
+    padding: 1px;
+    color: white;
+    font-size: 0.9em;
+}
+
+aside img
+{
+    margin-right: 5px;
+}

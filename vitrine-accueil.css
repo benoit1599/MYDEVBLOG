@@ -1,0 +1,95 @@
+@font-face {
+    font-family: "opensans";
+    src: url("OpenSans-Light.ttf");
+    font-stretch: normal;
+    font-weight: normal;
+    font-style: normal;
+    }
+    
+    
+    header {
+    background-image: url("texture-header.jpg");
+    height: 150px;
+    }
+    
+    
+    h1 {
+    color: black;
+    font-family: "nasa";
+    font-size: 40px;
+    vertical-align: middle;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+    }
+    
+    
+    nav {
+    font-family: "opensans";
+    display: inline-block;
+    background-color: #2e2f30;
+    width: 100%;
+    margin: 0px;
+    margin-right: auto;
+    padding-right:50px;
+    text-align: right;
+    vertical-align: center;
+    }
+    
+    
+    header nav > a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    }
+    
+    
+    a:hover {
+    color: palegoldenrod;
+    font-weight: bold;
+    text-decoration: none;
+    }
+    
+    
+    main {
+    font-family: "opensans";
+    font-size: 14px;
+    background-color: #f2f2f2;
+    text-align: center;
+    width: 810px;
+    margin: auto;
+    margin-right: auto;
+    }
+    
+    
+    main.accueil > h2 {
+    text-shadow: 2px 2px 4px black;
+    }
+    
+    
+    main.accueil {
+    text-align: center;
+    }
+    
+    
+    main * {
+    margin-left: auto;
+    margin-right: auto;
+    }
+    
+    
+    footer > a, footer > img {
+    display: block;
+    position: absolute;
+    bottom: 15%;
+    left: 42%;
+    margin-top: -50px;
+    margin-left: -40px;
+    }
+    
+    
+    body {
+    background-color: #f2f2f2;
+    font-family: "opensans";
+    font-size: 14px;
+    }
